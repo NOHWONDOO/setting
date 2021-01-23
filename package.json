@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "pre-commit:eslint": "eslint .",
+    "pre-commit:eslint": "eslint --cache --fix",
     "pre-commit:pretty-quick": "pretty-quick"
   },
   "dependencies": {
